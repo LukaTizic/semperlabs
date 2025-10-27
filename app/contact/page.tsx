@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
   {
-    icon: <Twitter size={20} />,
-    href: "https://twitter.com/semper_",
-    label: "Twitter",
-    handle: "@semper_",
+    icon: <Linkedin />,
+    href: "https://www.linkedin.com/in/luka-tizi%C4%87-529a1b240/",
+    label: "Linkedin",
+    handle: "@LukaTizic",
   },
   {
     icon: <Mail size={20} />,
-    href: "mailto:dev@semperlabs",
+    href: "mailto:lukatizic7@gmail.com",
     label: "Email",
-    handle: "dev@semperlabs",
+    handle: "dev@lukatizic.com",
   },
   {
     icon: <Github size={20} />,
-    href: "https://github.com/semper",
+    href: "https://github.com/LukaTizic",
     label: "Github",
-    handle: "semper",
+    handle: "Luka Semper Tizic",
   },
 ];
 
