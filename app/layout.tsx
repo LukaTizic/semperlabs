@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "semperlabs",
     description: "Personal Portfolio Luka Tizic",
-    url: "https://semperlabs",
+    url: "https://semperlabs.vercel.app/",
     siteName: "semperlabs",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
   },
 };
 const inter = Inter({
