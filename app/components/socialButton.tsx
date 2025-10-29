@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Twitter } from "lucide-react";
+import { SiDiscord } from "react-icons/si";
 
 const SocialButton = () => {
   return (
@@ -12,25 +13,25 @@ const SocialButton = () => {
 
           <div className="absolute inset-0 flex opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-700">
             <a
-              href="https://github.com"
+              href="https://github.com/LukaTizic"
               target="_blank"
               className="flex-1 flex items-center justify-center transition-transform duration-300 hover:scale-110"
             >
               <Github size={20} className="text-white hover:text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/luka-tizi%C4%87-529a1b240/"
               target="_blank"
               className="flex-1 flex items-center justify-center transition-transform duration-300 hover:scale-110"
             >
               <Linkedin size={20} className="text-white hover:text-gray-300" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://discord.gg/9GAFRzhN"
               target="_blank"
               className="flex-1 flex items-center justify-center transition-transform duration-300 hover:scale-110"
             >
-              <Twitter size={20} className="text-white hover:text-gray-300" />
+              <SiDiscord size={20} className="text-white hover:text-gray-300" />
             </a>
           </div>
         </div>
