@@ -7,7 +7,7 @@ const SocialButton = () => {
     <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 animate-fade-in">
       <div className="relative group w-48 h-12">
         <div className="absolute inset-0 flex items-center justify-center text-gray-500 font-medium">
-          <span className="transition-opacity duration-700 group-hover:opacity-0">
+          <span className="transition-opacity duration-700 group-hover:opacity-0 text-sm">
             SOCIALS
           </span>
 
