@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import SocialButton from "./components/socialButton";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -31,6 +32,7 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10  text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display text-8xl sm:text-[8rem] md:text-[10rem] whitespace-nowrap bg-clip-text ">
         semper
       </h1>
+      <SocialButton />
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
     </div>
