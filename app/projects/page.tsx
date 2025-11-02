@@ -119,10 +119,12 @@ const Projects = () => {
             transition={{ delay: index * 0.2 + 0.6, duration: 0.8 }}
             className="group relative bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-500 hover:border-purple-400/30"
           >
-            <h2 className="text-2xl font-bold mb-3 transition">
+            <h2 className="text-2xl text-center font-bold mb-3 transition">
               {project.title}
             </h2>
-            <p className="text-gray-400 mb-5 text-sm">{project.description}</p>
+            <p className="text-gray-400 mb-5 text-center text-sm">
+              {project.description}
+            </p>
 
             {/* <div className="flex justify-center mt-3 gap-3 flex-wrap max-w-[80%]">
               {project.tech.map((tech, i) => (
