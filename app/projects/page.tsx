@@ -110,7 +110,7 @@ const Projects = () => {
         </h1>
       </motion.div>
 
-      <div className="relative z-10 mt-20 lg:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-8 max-w-6xl">
+      <div className="relative z-10 mt-40 sm:mt-20 lg:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-8 max-w-6xl">
         {projects.map((project, index) => (
           <motion.div
             key={index}
